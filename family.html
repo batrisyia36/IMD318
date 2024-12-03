@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FAMILY</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Header Section */
+        header {
+            background-color:darkkhaki ;
+            color: white;
+            padding: 10px ;
+            text-align: center;
+	    font-family: Arial,
+}
+ /* Navigation menu */
+        nav {
+            background-color: peachpuff;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+	.image-container {
+            display: block;
+        }
+        .image-container img {
+            display: inline-block;
+            width: 15%;
+            height: 20;
+}
+* Image Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 columns */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 15%;
+            height: 20;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+article {
+  float: left;
+  padding: 10px;
+  width: 100%;
+  background-color: mistyrose;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+    ul.custom-square {
+            list-style-type: none; 
+            padding-left: 0;       
+        }
+
+        ul.custom-square li {
+            position: relative;
+            padding-left: 20px;   
+        }
+
+        ul.custom-square li::before {
+            content: '';
+            display: inline-block;       
+            width: 12px;                  
+            height: 12px;                 
+            background-color: blue;     
+            position: absolute;          
+            left: 0;                     
+            top: 20%;                     
+            transform: translateY(-50%);  
+        }
+    /* Footer Section */
+        footer {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+   }
+</style>
+</head>
+<body>
+<body background="ocean.jpg">
+
+<header>
+  <h1> MY FAMILY </h1>
+</header>
+    <nav>
+        <ul>
+       <li><a href="index.html">HOME</a></li>
+      <li><a href="profile.html">MY PROFILE</a></li>
+      <li><a href="experience2.html">EXPERIENCE</a></li>
+      <li><a href="education2.html">EDUCATION</a></li>
+      <li><a href="family.html">FAMILY</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      </ul>
+    </nav>
+<!-- Image Gallery Section -->
+    <div class="gallery">
+<div class="w3-container w3-center w3-animate-zoom">
+        <!-- Image 1 to 6 -->
+        <img src="family.jpg" alt="family" width="500" height="300">
+	<img src="mapa.jpg" alt="mapa" width="500" height="300">
+        <img src="rayyan.jpg" alt="rayyan" width="500" height="300">
+        <img src="fami.jpg" alt="fami" width="500" height="300">
+        <img src="sibs1.jpg" alt="sibs1" width="600" height="300">
+        <img src="fam2.jpg" alt="fam2" width="500" height="300">
+  </div>
+  </div>
+
+
+<article>
+	<marquee><h1>ABOUT MY FAMILY</h1></marquee>
+<ul class="custom-square">
+<li><p style = "color:black;">My family consist of six members including my parents.My father name is <b>Rushaidi bin Ahmat</b> and he is born on 25 November 1974.He's such an amazing father that working hard to fullfil his responsibility for family.</p></li>
+
+<li><p style = "color:brown;">For my mother, her name is <b>Sa'odah binti Anwar</b>.She is born on 7 May 1974.My mom did very best to take care of home and their children plus she's very good in cooking.</p></li>
+
+<li><p style = "color:black;">I have four siblings including me as the second child.My older sister name is <b>Syazwani Balqis binti Rushaidi</b>.She's currently working and studying in UITM Shah Alam.She's a kindheated person and can be easily tolerate.Next, for my younger sister name is <b>Syazwina Barizah binti Rushaidi</b>.She's still studying in school and taking SPM this year.She's talkative person and loves reading.Lastly is my younger brother, <b>Muhammad Rayyan Iskandar bin Rushaidi</b>S.He's only 14 years old and very loves to eat.</p></li>
+</ul>
+</article>
+    <!-- Footer Section -->
+    <footer>
+        <p>for IMD318 assignment used only.</p>
+    </footer>
+
+
+</body>
+</html>
